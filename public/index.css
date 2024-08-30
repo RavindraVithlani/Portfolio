@@ -1,0 +1,152 @@
+:root {
+  --background: #121212;
+  --primary-text: #ffffff;
+  --secondary-text: #b3b3b3;
+  --menu-bar: #404040;
+  --hover: #282828;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body { 
+  background-color: var(--background);
+  color: var(--primary-text);  
+ 
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  max-width: 990px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  min-height: 100vh;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+
+
+
+/* ------------------Home Page----------------- */
+.home-container{
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 100%; */
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 0 15px 0 rgb(139, 4, 229);
+  padding: 25px 10px;
+}
+.details{
+  /* width: 78%; */
+  padding: 1vw;
+}
+.details *{
+  margin: 5px;
+
+}
+.home-title{
+  display: flex;
+  align-items: center;
+}
+.img{
+  height: 125px;
+  width: 125px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description{
+  margin-left: 2.5vw;
+
+}
+.description p{
+  color: var(--secondary-text);
+  text-align: justify;
+  line-height: 20px;
+  font-size: 12pt;
+}
+.ext-links{
+  margin-left: 2.5vw;
+  display: flex;
+}
+.link-buttons{
+  padding: 12px;
+  background-color: var(--menu-bar);
+  border-radius: 7px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-wrap: nowrap;
+
+}
+.link-buttons:hover{
+  background-color: var(--hover);
+}
+.link-button-icons{
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  padding: 5px;
+  border-radius: 150%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-button-icons img{
+  margin: 0;
+}
+
+.home-nav{
+  height: 100%;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+.home-links{
+  margin: 20px 0;
+  font-size: 14pt;
+  width: 80%;
+  display:flex;
+  transition: 0.3s;
+  font-weight: 200;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.home-links:hover{
+  width: 100%;
+  font-size: 15pt;
+}
+
+
+
+
+
+
+
