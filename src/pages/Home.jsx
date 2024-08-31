@@ -1,6 +1,6 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Button from "../components/Button";
-// import Arrow from "../components/Arrow";
+import Arrow from "../components/Arrow";
 
 export default function Home(){
     return (
@@ -39,12 +39,12 @@ export default function Home(){
                     <Button name={"HackerRank"} icon={"hackerrank"} link={"https://www.hackerrank.com/profile/ravindra_vithla1"}></Button>
                 </div>
             </div>
-            {/* <div className="home-nav">
+            <div className="home-nav">
                 <Link to="https://drive.google.com/file/d/1NMrltO50bAfbIrJNYrvqiQcu5xtT4D_y/view?usp=drive_link" className="home-links"><p>Resume</p> <Arrow/></Link>
                 <Link to="/projects" className="home-links"><p>Projects</p> <Arrow/></Link>
                 <Link to="/education" className="home-links"><p>Education</p> <Arrow/></Link>
                 <Link to="https://drive.google.com/drive/folders/1PrgXrdH0TRdo-6tQoGTOMQFv2d6ovn_D?usp=sharing" className="home-links"><p>Certificates</p> <Arrow/></Link>
-            </div> */}
+            </div>
         </div>
     )
 }

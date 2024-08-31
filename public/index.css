@@ -48,14 +48,14 @@ a{
   height: fit-content;
   display: flex;
   justify-content: space-between;
-  /* max-width: 100%; */
-  max-width: 800px;
+  max-width: 100%;
+  /* max-width: 800px; */
   margin: auto;
   box-shadow: 0 0 15px 0 rgb(139, 4, 229);
   padding: 25px 10px;
 }
 .details{
-  /* width: 78%; */
+  width: 78%;
   padding: 1vw;
 }
 .details *{
