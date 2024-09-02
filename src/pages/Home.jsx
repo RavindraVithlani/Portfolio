@@ -40,10 +40,10 @@ export default function Home(){
                 </div>
             </div>
             <div className="home-nav">
-                <Link to="https://drive.google.com/file/d/1NMrltO50bAfbIrJNYrvqiQcu5xtT4D_y/view?usp=drive_link" className="home-links"><p>Resume</p> <Arrow/></Link>
+                <Link to="https://drive.google.com/file/d/1NMrltO50bAfbIrJNYrvqiQcu5xtT4D_y/view?usp=drive_link" target="_blank" rel="noreferrer" className="home-links"><p>Resume</p> <Arrow/></Link>
                 <Link to="/projects" className="home-links"><p>Projects</p> <Arrow/></Link>
                 <Link to="/education" className="home-links"><p>Education</p> <Arrow/></Link>
-                <Link to="https://drive.google.com/drive/folders/1PrgXrdH0TRdo-6tQoGTOMQFv2d6ovn_D?usp=sharing" className="home-links"><p>Certificates</p> <Arrow/></Link>
+                <Link to="https://drive.google.com/drive/folders/1PrgXrdH0TRdo-6tQoGTOMQFv2d6ovn_D?usp=sharing" target="_blank" rel="noreferrer" className="home-links"><p>Certificates</p> <Arrow/></Link>
             </div>
         </div>
     )
