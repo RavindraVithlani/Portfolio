@@ -65,6 +65,24 @@ a{
   box-shadow: 0 0 25px 20px var(--background);
 
 }
+.nav-links{
+  color: var(--secondary-text);
+  padding: 5px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+.nav-links.active{
+  color: var(--primary-text);
+}
+.nav-links.active:hover{
+  border: none;
+  padding: 5px;
+}
+.nav-links:hover{
+  color: var(--primary-text);
+  border-bottom: 2px solid var(--primary-text);
+  padding: 3px;
+}
 
 /* ---------------------Layout End--------------- */
 
