@@ -11,13 +11,13 @@ export default function Home(){
                     <div>
                         <h1>Ravindra Vithlani</h1>
                         <a href="tel:+917406281713" style={{margin:0}}>
-                            <p style={{color:"var(--secondary-text)", display:'flex', alignItems:'center', fontSize:'11pt'}}>
+                            <p style={{color:"var(--secondary-text)", display:'flex', alignItems:'center', fontSize:'11pt', fontStyle:'italic'}}>
                                 <span className="material-symbols-outlined">call</span>
                                 +91 7406281713
                             </p>
                         </a>
                         <a href = "mailto:ravindra.vithlani131101@gmail.com?subject=Hello%20there&body=I%20would%20like%20more%20information." style={{margin:0}}>
-                            <p style={{color:"var(--secondary-text)", display:'flex', alignItems:'center', fontSize:'11pt'}}>
+                            <p style={{color:"var(--secondary-text)", display:'flex', alignItems:'center', fontSize:'11pt', fontStyle:'italic'}}>
                                 <span className="material-symbols-outlined">mail</span>
                                 ravindra.vithlani131101@gmail.com
                             </p>
@@ -42,7 +42,7 @@ export default function Home(){
             <div className="home-nav">
                 <Link to="https://drive.google.com/file/d/1NMrltO50bAfbIrJNYrvqiQcu5xtT4D_y/view?usp=drive_link" target="_blank" rel="noreferrer" className="home-links"><p>Resume</p> <Arrow/></Link>
                 <Link to="/projects" className="home-links"><p>Projects</p> <Arrow/></Link>
-                <Link to="/education" className="home-links"><p>Education</p> <Arrow/></Link>
+                <Link to="/education" className="home-links"><p>My Timeline</p> <Arrow/></Link>
                 <Link to="https://drive.google.com/drive/folders/1PrgXrdH0TRdo-6tQoGTOMQFv2d6ovn_D?usp=sharing" target="_blank" rel="noreferrer" className="home-links"><p>Certificates</p> <Arrow/></Link>
             </div>
         </div>

@@ -25,7 +25,7 @@ export default function Projects(){
                         A simple game of Snakes and Ladders developed using only HTML, CSS and Javascript.
                     </Card>
                     <Card title={"Abhyuday2k23"} link={'#'} preview = {'/imgs/abhyuday7_preview.png'}>
-                        A website developed for fest conducted at MCA Department of MSRIT.(2023)
+                        A website developed for fest conducted at MCA Department of MSRIT (2023).
                     </Card>
                 </div>
 

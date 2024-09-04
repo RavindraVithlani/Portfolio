@@ -40,6 +40,10 @@ a{
   text-decoration: none;
   color: unset;
 }
+p{
+  color: var(--secondary-text);
+  font-style: italic;
+}
 
 /* ---------------------------Layout----------------------- */
 /* .logo-img{
@@ -56,7 +60,8 @@ a{
   width: 100%;
   padding: 20px;
   justify-content: space-evenly;
-  background-color: var(--primary);
+  background-color: rgb(102 3 168 / 62%);
+  backdrop-filter: blur(5px);
   margin: 20px 0;
   border-radius: 5px;
   position: sticky;
@@ -206,6 +211,7 @@ a{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 0 15px -7px var(--hover);
 }
 .content{
   display: flex;
@@ -236,6 +242,7 @@ a{
 .project-des{
   color: var(--secondary-text);
   text-align: center;
+  font-style: italic;
 }
 .project-link{
   /* border: 1px solid var(--primary); */
@@ -249,7 +256,63 @@ a{
   background-color: var(--primary);
 }
 
+/* ---------------------------Projects End---------------------------- */
 
+/* ----------------------------Education Start--------------------------- */
+.education{
+  /* width: fit-content;
+  margin: auto; */
+}
+.section{
+  display: flex;
+  min-height: 200px;
+  width: 100%;
+  padding: 0 20px;
+}
+.icon-div{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-animation{
+  animation: edu-icon 1.5s infinite;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 2px solid var(--primary);
+
+}
+@keyframes edu-icon {
+  from{
+    padding: 50%;
+    opacity: 1;
+  }
+  to{
+    padding: 150%;
+    opacity: 0;
+  }
+}
+.line{
+  width: 0;
+  height: 42%;
+  border-left: 2px solid var(--primary);
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
 
